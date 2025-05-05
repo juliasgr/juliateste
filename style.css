@@ -1,0 +1,70 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: #fff0f6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #ffcce0;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #d6336c;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .photo-frame {
+    background: #fff;
+    border: 3px dashed #ff99cc;
+    border-radius: 16px;
+    padding: 10px;
+    position: relative;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .photo-frame:hover {
+    transform: rotate(-1deg) scale(1.02);
+  }
+  
+  .photo-frame img {
+    width: 100%;
+    border-radius: 12px;
+  }
+  
+  .caption {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: #a64d79;
+    font-size: 14px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  button {
+    background-color: #ffb3d9;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+  }
+  
+  button:hover {
+    background-color: #ff99cc;
+  }
+  
