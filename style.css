@@ -6,11 +6,11 @@ body {
   }
   
   header {
-    background-color: #ffcce0;
+    background-color: #edb2b2;
     padding: 20px;
     text-align: center;
     font-size: 24px;
-    color: #d6336c;
+    color: #50041e;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   }
   
@@ -23,7 +23,7 @@ body {
   
   .photo-frame {
     background: #fff;
-    border: 3px dashed #ff99cc;
+    border: 3px dashed #50041e;
     border-radius: 16px;
     padding: 10px;
     position: relative;
